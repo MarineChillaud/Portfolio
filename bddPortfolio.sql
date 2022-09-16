@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS roles (
 DROP TABLE IF EXISTS users;
 CREATE TABLE IF NOT EXISTS users (
     userId int(11) NOT NULL AUTO_INCREMENT,
-    Nuserame varchar(255) NOT NULL,
+    userName varchar(255) NOT NULL,
     UserPassword varchar(255) NOT NULL,
     roleId tinyint NOT NULL,
     PRIMARY KEY (userId),
